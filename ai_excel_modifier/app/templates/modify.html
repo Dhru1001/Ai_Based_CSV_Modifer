@@ -87,14 +87,6 @@
         <a href="/download_output" class="btn btn-primary">Download Output CSV</a>
         <a href="/download_log" class="btn btn-secondary">Download Modification Log</a>
     </div>
-    
-    <h2 class="mt-5">Filter Logs</h2>
-    <form action="/filter_logs" method="POST" class="mb-4">
-        <div class="mb-3">
-            <label for="filter_criteria" class="form-label">Filter Criteria:</label>
-            <input type="text" name="filter_criteria" id="filter_criteria" class="form-control" required>
-        </div>
-        <button type="submit" class="btn btn-info">Filter Logs</button>
     </form>
     {% if data %}
     <div class="table-responsive mt-3">
