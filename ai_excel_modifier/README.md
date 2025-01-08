@@ -31,37 +31,45 @@ This application is designed to simplify data preprocessing tasks for non-techni
 
 First, clone the repository to your local machine using the following command:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`bashCopy codegit clone` 
+``git clone <repository-url>`` 
 
 ### **2\. Navigate to the Project Folder**
 
 Change the working directory to the project folder:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`bashCopy codecd` 
+``cd <project-folder>``
 
 ### **3\. Create and Activate a Virtual Environment (Optional)**
 
 To isolate dependencies, it’s recommended to use a virtual environment:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy code# Create virtual environment  python -m venv venv  # Activate the virtual environment  # On Windows:  venv\Scripts\activate  # On macOS/Linux:  source venv/bin/activate   `
+``# Create virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+``
 
 ### **4\. Install Dependencies**
 
 Install the required Python libraries:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy codepip install -r requirements.txt   `
+``pip install -r requirements.txt``
 
 ### **5\. Set Up the Environment Variables**
 
 Create a .env file in the project directory to store sensitive configuration variables. Example:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   plaintextCopy codeSECRET_KEY=your_secret_key_here   `
+``SECRET_KEY=your_secret_key_here``
 
 ### **6\. Run the Application**
 
 Navigate to the app directory and run the application using the following command:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy codepython app.py   `
+``python app.py``
 
 **Usage**
 ---------
@@ -84,7 +92,20 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 **Folder Structure**
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   plaintextCopy codeproject-folder/  ├── app.py                # Main Flask application  ├── utils.py              # Utility functions for data manipulation  ├── templates/            # HTML templates  │   ├── index.html        # Home page template  │   ├── modify.html       # Modify page template  ├── static/               # Static files (CSS, JS, etc.)  ├── data/                 # Folder to store uploaded and temporary files  ├── logs/                 # Folder to store operation logs  ├── .env                  # Environment variables file  ├── requirements.txt      # List of required Python libraries  └── README.md             # Documentation file   `
+``
+project-folder/
+├── app.py                # Main Flask application
+├── utils.py              # Utility functions for data manipulation
+├── templates/            # HTML templates
+│   ├── index.html        # Home page template
+│   ├── modify.html       # Modify page template
+├── static/               # Static files (CSS, JS, etc.)
+├── data/                 # Folder to store uploaded and temporary files
+├── logs/                 # Folder to store operation logs
+├── .env                  # Environment variables file
+├── requirements.txt      # List of required Python libraries
+└── README.md             # Documentation file
+``
 
 **Features in Detail**
 ----------------------
@@ -118,13 +139,8 @@ The application logs all operations performed on the data and allows users to do
     
 2.  **Environment Variables Error:**Make sure you have a .env file with the correct SECRET\_KEY.
     
-3.  bashCopy codepip install -r requirements.txt
+3.  ``pip install -r requirements.txt``
     
-
-**License**
------------
-
-This project is licensed under the MIT License. Feel free to modify and distribute this project under the terms of the license.
 
 **Contributing**
 ----------------
