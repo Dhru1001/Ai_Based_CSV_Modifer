@@ -1,0 +1,1308 @@
+2025-01-08 00:16:50,956 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:16:50,956 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:16:50,956 -  * Restarting with stat
+2025-01-08 00:16:51,838 -  * Debugger is active!
+2025-01-08 00:16:51,853 -  * Debugger PIN: 103-707-624
+2025-01-08 00:16:55,020 - 127.0.0.1 - - [08/Jan/2025 00:16:55] "GET / HTTP/1.1" 200 -
+2025-01-08 00:17:00,204 - Input file loaded successfully: data\input.csv
+2025-01-08 00:17:00,218 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:00,233 - 127.0.0.1 - - [08/Jan/2025 00:17:00] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:17:03,105 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:17:03,114 - Removed 0 duplicate rows.
+2025-01-08 00:17:03,117 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:03,120 - 127.0.0.1 - - [08/Jan/2025 00:17:03] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:17:05,579 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:17:05,580 - Removed 0 duplicate rows.
+2025-01-08 00:17:05,583 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:05,585 - 127.0.0.1 - - [08/Jan/2025 00:17:05] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:17:05,978 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:17:05,979 - Removed 0 duplicate rows.
+2025-01-08 00:17:05,982 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:05,984 - 127.0.0.1 - - [08/Jan/2025 00:17:05] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:17:06,339 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:17:06,340 - Removed 0 duplicate rows.
+2025-01-08 00:17:06,342 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:06,344 - 127.0.0.1 - - [08/Jan/2025 00:17:06] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:17:12,881 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:17:12,882 - Removed 0 duplicate rows.
+2025-01-08 00:17:12,884 - Data saved successfully: data/temp.csv
+2025-01-08 00:17:12,885 - 127.0.0.1 - - [08/Jan/2025 00:17:12] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:21:37,254 - 127.0.0.1 - - [08/Jan/2025 00:21:37] "GET / HTTP/1.1" 200 -
+2025-01-08 00:21:43,235 - Input file loaded successfully: data\input.csv
+2025-01-08 00:21:43,246 - Data saved successfully: data/temp.csv
+2025-01-08 00:21:43,311 - 127.0.0.1 - - [08/Jan/2025 00:21:43] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:21:52,239 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:21:52,245 - Removed 0 duplicate rows.
+2025-01-08 00:21:52,248 - Data saved successfully: data/temp.csv
+2025-01-08 00:21:52,251 - 127.0.0.1 - - [08/Jan/2025 00:21:52] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:21:59,062 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:21:59,063 - Removed 0 duplicate rows.
+2025-01-08 00:21:59,066 - Data saved successfully: data/temp.csv
+2025-01-08 00:21:59,067 - 127.0.0.1 - - [08/Jan/2025 00:21:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:22:41,300 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:22:41,302 - Removed 0 duplicate rows.
+2025-01-08 00:22:41,303 - Data saved successfully: data/temp.csv
+2025-01-08 00:22:41,306 - 127.0.0.1 - - [08/Jan/2025 00:22:41] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:22:41,827 - 127.0.0.1 - - [08/Jan/2025 00:22:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:22:47,140 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:22:47,142 - Removed 0 duplicate rows.
+2025-01-08 00:22:47,146 - Data saved successfully: data/temp.csv
+2025-01-08 00:22:47,148 - 127.0.0.1 - - [08/Jan/2025 00:22:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:24:18,396 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 00:24:18,656 -  * Restarting with stat
+2025-01-08 00:24:19,558 -  * Debugger is active!
+2025-01-08 00:24:19,572 -  * Debugger PIN: 103-707-624
+2025-01-08 00:24:21,792 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 00:24:21,959 -  * Restarting with stat
+2025-01-08 00:24:22,825 -  * Debugger is active!
+2025-01-08 00:24:22,840 -  * Debugger PIN: 103-707-624
+2025-01-08 00:25:22,375 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 00:25:22,753 -  * Restarting with stat
+2025-01-08 00:25:24,095 -  * Debugger is active!
+2025-01-08 00:25:24,111 -  * Debugger PIN: 103-707-624
+2025-01-08 00:25:25,595 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:25,596 - Removed 0 duplicate rows.
+2025-01-08 00:25:25,599 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:25,607 - 127.0.0.1 - - [08/Jan/2025 00:25:25] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:25,799 - 127.0.0.1 - - [08/Jan/2025 00:25:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:25:28,856 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:28,859 - Removed 0 duplicate rows.
+2025-01-08 00:25:28,862 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:28,867 - 127.0.0.1 - - [08/Jan/2025 00:25:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:30,178 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:30,179 - Removed 0 duplicate rows.
+2025-01-08 00:25:30,181 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:30,183 - 127.0.0.1 - - [08/Jan/2025 00:25:30] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:30,753 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:30,755 - Removed 0 duplicate rows.
+2025-01-08 00:25:30,759 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:30,762 - 127.0.0.1 - - [08/Jan/2025 00:25:30] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:30,975 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:30,980 - Removed 0 duplicate rows.
+2025-01-08 00:25:30,983 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:30,987 - 127.0.0.1 - - [08/Jan/2025 00:25:30] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:31,174 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:31,176 - Removed 0 duplicate rows.
+2025-01-08 00:25:31,178 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:31,183 - 127.0.0.1 - - [08/Jan/2025 00:25:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:31,371 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:31,371 - Removed 0 duplicate rows.
+2025-01-08 00:25:31,374 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:31,377 - 127.0.0.1 - - [08/Jan/2025 00:25:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:31,546 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:31,550 - Removed 0 duplicate rows.
+2025-01-08 00:25:31,553 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:31,558 - 127.0.0.1 - - [08/Jan/2025 00:25:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:31,733 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:31,737 - Removed 0 duplicate rows.
+2025-01-08 00:25:31,739 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:31,743 - 127.0.0.1 - - [08/Jan/2025 00:25:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:36,994 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:36,997 - Removed 0 duplicate rows.
+2025-01-08 00:25:37,000 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:37,004 - 127.0.0.1 - - [08/Jan/2025 00:25:37] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:25:46,496 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:25:46,496 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:25:46,496 -  * Restarting with stat
+2025-01-08 00:25:47,376 -  * Debugger is active!
+2025-01-08 00:25:47,393 -  * Debugger PIN: 103-707-624
+2025-01-08 00:25:49,293 - 127.0.0.1 - - [08/Jan/2025 00:25:49] "GET / HTTP/1.1" 200 -
+2025-01-08 00:25:54,772 - Input file loaded successfully: data\input.csv
+2025-01-08 00:25:54,778 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:54,796 - 127.0.0.1 - - [08/Jan/2025 00:25:54] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:25:59,267 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:25:59,269 - Removed 0 duplicate rows.
+2025-01-08 00:25:59,273 - Data saved successfully: data/temp.csv
+2025-01-08 00:25:59,277 - 127.0.0.1 - - [08/Jan/2025 00:25:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:26:36,441 - 127.0.0.1 - - [08/Jan/2025 00:26:36] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-01-08 00:26:41,254 - 127.0.0.1 - - [08/Jan/2025 00:26:41] "GET / HTTP/1.1" 200 -
+2025-01-08 00:26:59,641 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:26:59,646 - Removed 0 duplicate rows.
+2025-01-08 00:26:59,650 - Data saved successfully: data/temp.csv
+2025-01-08 00:26:59,653 - 127.0.0.1 - - [08/Jan/2025 00:26:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:27:58,049 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:27:58,049 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:27:58,049 -  * Restarting with stat
+2025-01-08 00:27:58,836 -  * Debugger is active!
+2025-01-08 00:27:58,849 -  * Debugger PIN: 103-707-624
+2025-01-08 00:30:19,845 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 00:30:20,142 -  * Restarting with stat
+2025-01-08 00:30:23,200 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:30:23,200 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:30:23,200 -  * Restarting with stat
+2025-01-08 00:30:23,949 -  * Debugger is active!
+2025-01-08 00:30:23,975 -  * Debugger PIN: 103-707-624
+2025-01-08 00:30:26,536 - 127.0.0.1 - - [08/Jan/2025 00:30:26] "GET / HTTP/1.1" 200 -
+2025-01-08 00:30:31,620 - Input file loaded successfully: data\input.csv
+2025-01-08 00:30:31,630 - Data saved successfully: data/temp.csv
+2025-01-08 00:30:31,647 - 127.0.0.1 - - [08/Jan/2025 00:30:31] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:30:32,893 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:30:32,895 - Removed 0 duplicate rows.
+2025-01-08 00:30:32,901 - Data saved successfully: data/temp.csv
+2025-01-08 00:30:32,903 - 127.0.0.1 - - [08/Jan/2025 00:30:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:30:49,908 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:30:49,910 - Removed 0 duplicate rows.
+2025-01-08 00:30:49,910 - Data saved successfully: data/temp.csv
+2025-01-08 00:30:49,910 - 127.0.0.1 - - [08/Jan/2025 00:30:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:34:23,868 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:34:24,311 -  * Restarting with stat
+2025-01-08 00:34:25,302 -  * Debugger is active!
+2025-01-08 00:34:25,327 -  * Debugger PIN: 103-707-624
+2025-01-08 00:34:26,148 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:34:26,175 - Data saved successfully: data/temp.csv
+2025-01-08 00:34:26,224 - 127.0.0.1 - - [08/Jan/2025 00:34:26] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:34:26,380 - 127.0.0.1 - - [08/Jan/2025 00:34:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:34:28,333 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:34:28,344 - Data saved successfully: data/temp.csv
+2025-01-08 00:34:28,346 - 127.0.0.1 - - [08/Jan/2025 00:34:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:34:41,170 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:34:41,178 - Error applying custom rule: name 'Jane' is not defined
+2025-01-08 00:34:41,179 - 127.0.0.1 - - [08/Jan/2025 00:34:41] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:35:24,811 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:35:24,824 - Data saved successfully: data/temp.csv
+2025-01-08 00:35:24,826 - 127.0.0.1 - - [08/Jan/2025 00:35:24] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:35:38,883 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:35:38,887 - Error applying custom rule: name 'jane' is not defined
+2025-01-08 00:35:38,888 - 127.0.0.1 - - [08/Jan/2025 00:35:38] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:38:11,010 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:38:11,567 -  * Restarting with stat
+2025-01-08 00:38:12,579 -  * Debugger is active!
+2025-01-08 00:38:12,600 -  * Debugger PIN: 103-707-624
+2025-01-08 00:38:15,089 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:38:15,104 - Data saved successfully: data/temp.csv
+2025-01-08 00:38:15,116 - 127.0.0.1 - - [08/Jan/2025 00:38:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:38:21,091 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:38:21,104 - Data saved successfully: data/temp.csv
+2025-01-08 00:38:21,107 - 127.0.0.1 - - [08/Jan/2025 00:38:21] "POST /process HTTP/1.1" 200 -
+    2025-01-08 00:38:45,477 - Input file loaded successfully: data/temp.csv
+    2025-01-08 00:38:45,497 - Data saved successfully: data/temp.csv
+    2025-01-08 00:38:45,503 - 127.0.0.1 - - [08/Jan/2025 00:38:45] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:39:36,032 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:39:36,040 - Data saved successfully: data/temp.csv
+2025-01-08 00:39:36,043 - 127.0.0.1 - - [08/Jan/2025 00:39:36] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:39:49,922 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:39:49,931 - Data saved successfully: data/temp.csv
+2025-01-08 00:39:49,933 - 127.0.0.1 - - [08/Jan/2025 00:39:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:41:14,057 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 00:41:14,483 -  * Restarting with stat
+2025-01-08 00:41:40,957 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:41:40,957 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:41:40,957 -  * Restarting with stat
+2025-01-08 00:41:41,754 -  * Debugger is active!
+2025-01-08 00:41:41,770 -  * Debugger PIN: 103-707-624
+2025-01-08 00:41:52,371 - 127.0.0.1 - - [08/Jan/2025 00:41:52] "GET / HTTP/1.1" 200 -
+2025-01-08 00:41:52,507 - 127.0.0.1 - - [08/Jan/2025 00:41:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:41:58,316 - Input file loaded successfully: data\input.csv
+2025-01-08 00:41:58,321 - Data saved successfully: data/temp.csv
+2025-01-08 00:41:58,330 - 127.0.0.1 - - [08/Jan/2025 00:41:58] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:42:00,821 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:42:00,830 - Data saved successfully: data/temp.csv
+2025-01-08 00:42:00,833 - 127.0.0.1 - - [08/Jan/2025 00:42:00] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:42:17,107 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:42:17,120 - Data saved successfully: data/temp.csv
+2025-01-08 00:42:17,122 - 127.0.0.1 - - [08/Jan/2025 00:42:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:42:33,170 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:42:33,176 - Data saved successfully: data/temp.csv
+2025-01-08 00:42:33,178 - 127.0.0.1 - - [08/Jan/2025 00:42:33] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:44:07,754 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:44:07,768 - Data saved successfully: data/temp.csv
+2025-01-08 00:44:07,776 - 127.0.0.1 - - [08/Jan/2025 00:44:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:44:21,333 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:44:21,348 - Data saved successfully: data/temp.csv
+2025-01-08 00:44:21,352 - 127.0.0.1 - - [08/Jan/2025 00:44:21] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:44:32,037 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:44:32,041 - Data saved successfully: data/temp.csv
+2025-01-08 00:44:32,046 - 127.0.0.1 - - [08/Jan/2025 00:44:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:44:35,124 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:44:35,134 - Data saved successfully: data/temp.csv
+2025-01-08 00:44:35,139 - 127.0.0.1 - - [08/Jan/2025 00:44:35] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:45:24,721 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:45:24,726 - Data saved successfully: data/temp.csv
+2025-01-08 00:45:24,732 - 127.0.0.1 - - [08/Jan/2025 00:45:24] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:45:29,221 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:45:29,227 - Data saved successfully: data/temp.csv
+2025-01-08 00:45:29,229 - 127.0.0.1 - - [08/Jan/2025 00:45:29] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:45:30,877 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:45:30,885 - Data saved successfully: data/temp.csv
+2025-01-08 00:45:30,889 - 127.0.0.1 - - [08/Jan/2025 00:45:30] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:46:19,474 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:46:19,482 - Data saved successfully: data/temp.csv
+2025-01-08 00:46:19,485 - 127.0.0.1 - - [08/Jan/2025 00:46:19] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:46:27,936 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:46:27,936 - Error applying custom rule: 'name'
+2025-01-08 00:46:27,936 - 127.0.0.1 - - [08/Jan/2025 00:46:27] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:46:32,525 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:46:32,526 - Error applying custom rule: 'name'
+2025-01-08 00:46:32,526 - 127.0.0.1 - - [08/Jan/2025 00:46:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:46:43,161 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:46:43,166 - Data saved successfully: data/temp.csv
+2025-01-08 00:46:43,170 - 127.0.0.1 - - [08/Jan/2025 00:46:43] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:50:39,293 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:50:39,564 -  * Restarting with stat
+2025-01-08 00:50:40,416 -  * Debugger is active!
+2025-01-08 00:50:40,436 -  * Debugger PIN: 103-707-624
+2025-01-08 00:50:50,165 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:50:50,433 -  * Restarting with stat
+2025-01-08 00:50:51,507 -  * Debugger is active!
+2025-01-08 00:50:51,531 -  * Debugger PIN: 103-707-624
+2025-01-08 00:50:56,329 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:50:56,340 - Removed 0 duplicate rows.
+2025-01-08 00:50:56,343 - Data saved successfully: data/temp.csv
+2025-01-08 00:50:56,362 - 127.0.0.1 - - [08/Jan/2025 00:50:56] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:50:56,538 - 127.0.0.1 - - [08/Jan/2025 00:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:50:59,485 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:50:59,491 - Removed 0 duplicate rows.
+2025-01-08 00:50:59,496 - Data saved successfully: data/temp.csv
+2025-01-08 00:50:59,499 - 127.0.0.1 - - [08/Jan/2025 00:50:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:51:01,002 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:51:01,006 - Removed 0 duplicate rows.
+2025-01-08 00:51:01,010 - Data saved successfully: data/temp.csv
+2025-01-08 00:51:01,013 - 127.0.0.1 - - [08/Jan/2025 00:51:01] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:51:09,237 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:51:09,244 - Removed 0 duplicate rows.
+2025-01-08 00:51:09,249 - Data saved successfully: data/temp.csv
+2025-01-08 00:51:09,254 - 127.0.0.1 - - [08/Jan/2025 00:51:09] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:51:16,161 - 127.0.0.1 - - [08/Jan/2025 00:51:16] "[33mGET /proces HTTP/1.1[0m" 404 -
+2025-01-08 00:51:19,220 - 127.0.0.1 - - [08/Jan/2025 00:51:19] "GET / HTTP/1.1" 200 -
+2025-01-08 00:51:30,981 - Input file loaded successfully: data\input.csv
+2025-01-08 00:51:30,987 - Data saved successfully: data/temp.csv
+2025-01-08 00:51:30,995 - 127.0.0.1 - - [08/Jan/2025 00:51:30] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:51:42,369 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:51:42,376 - Data saved successfully: data/temp.csv
+2025-01-08 00:51:42,380 - 127.0.0.1 - - [08/Jan/2025 00:51:42] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:52:05,368 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:52:05,374 - Data saved successfully: data/temp.csv
+2025-01-08 00:52:05,380 - 127.0.0.1 - - [08/Jan/2025 00:52:05] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:52:12,028 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:52:12,033 - Data saved successfully: data/temp.csv
+2025-01-08 00:52:12,038 - 127.0.0.1 - - [08/Jan/2025 00:52:12] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:52:34,348 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:52:34,354 - Data saved successfully: data/temp.csv
+2025-01-08 00:52:34,359 - 127.0.0.1 - - [08/Jan/2025 00:52:34] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:53:01,219 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:53:01,226 - Data saved successfully: data/temp.csv
+2025-01-08 00:53:01,230 - 127.0.0.1 - - [08/Jan/2025 00:53:01] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:53:28,741 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:53:28,750 - Removed 4 duplicate rows.
+2025-01-08 00:53:28,752 - Data saved successfully: data/temp.csv
+2025-01-08 00:53:28,756 - 127.0.0.1 - - [08/Jan/2025 00:53:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:54:08,758 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:54:08,770 - Data saved successfully: data/temp.csv
+2025-01-08 00:54:08,771 - 127.0.0.1 - - [08/Jan/2025 00:54:08] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:54:49,497 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:54:49,505 - Data saved successfully: data/temp.csv
+2025-01-08 00:54:49,508 - 127.0.0.1 - - [08/Jan/2025 00:54:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:55:07,881 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:55:07,886 - Data saved successfully: data/temp.csv
+2025-01-08 00:55:07,890 - 127.0.0.1 - - [08/Jan/2025 00:55:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:56:52,856 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:56:53,258 -  * Restarting with stat
+2025-01-08 00:56:54,346 -  * Debugger is active!
+2025-01-08 00:56:54,381 -  * Debugger PIN: 103-707-624
+2025-01-08 00:56:56,910 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:56:56,925 - Data saved successfully: data/temp.csv
+2025-01-08 00:56:56,937 - 127.0.0.1 - - [08/Jan/2025 00:56:56] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:56:57,099 - 127.0.0.1 - - [08/Jan/2025 00:56:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 00:57:16,581 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:57:16,581 - Error applying custom rule: Can only use .str accessor with string values!
+2025-01-08 00:57:16,583 - 127.0.0.1 - - [08/Jan/2025 00:57:16] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:57:25,426 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:57:25,426 - Error applying custom rule: Can only use .str accessor with string values!
+2025-01-08 00:57:25,427 - 127.0.0.1 - - [08/Jan/2025 00:57:25] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:57:34,480 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:57:34,486 - Data saved successfully: data/temp.csv
+2025-01-08 00:57:34,490 - 127.0.0.1 - - [08/Jan/2025 00:57:34] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:57:47,040 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:57:47,051 - Data saved successfully: data/temp.csv
+2025-01-08 00:57:47,055 - 127.0.0.1 - - [08/Jan/2025 00:57:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:57:57,333 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:57:57,334 - Error applying custom rule: Can only use .str accessor with string values!
+2025-01-08 00:57:57,335 - 127.0.0.1 - - [08/Jan/2025 00:57:57] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:58:03,330 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:58:03,607 -  * Restarting with stat
+2025-01-08 00:58:04,654 -  * Debugger is active!
+2025-01-08 00:58:04,670 -  * Debugger PIN: 103-707-624
+2025-01-08 00:58:33,655 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 00:58:34,098 -  * Restarting with stat
+2025-01-08 00:58:35,263 -  * Debugger is active!
+2025-01-08 00:58:35,283 -  * Debugger PIN: 103-707-624
+2025-01-08 00:58:38,182 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:58:38,205 - Data saved successfully: data/temp.csv
+2025-01-08 00:58:38,221 - 127.0.0.1 - - [08/Jan/2025 00:58:38] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:58:48,348 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:58:48,355 - Data saved successfully: data/temp.csv
+2025-01-08 00:58:48,359 - 127.0.0.1 - - [08/Jan/2025 00:58:48] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:59:04,427 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:59:04,427 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:59:04,428 -  * Restarting with stat
+2025-01-08 00:59:05,209 -  * Debugger is active!
+2025-01-08 00:59:05,224 -  * Debugger PIN: 103-707-624
+2025-01-08 00:59:23,175 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 00:59:23,175 - [33mPress CTRL+C to quit[0m
+2025-01-08 00:59:23,175 -  * Restarting with stat
+2025-01-08 00:59:23,983 -  * Debugger is active!
+2025-01-08 00:59:24,008 -  * Debugger PIN: 103-707-624
+2025-01-08 00:59:32,974 - 127.0.0.1 - - [08/Jan/2025 00:59:32] "GET / HTTP/1.1" 200 -
+2025-01-08 00:59:42,302 - Input file loaded successfully: data\input.csv
+2025-01-08 00:59:42,310 - Data saved successfully: data/temp.csv
+2025-01-08 00:59:42,330 - 127.0.0.1 - - [08/Jan/2025 00:59:42] "POST /upload HTTP/1.1" 200 -
+2025-01-08 00:59:44,330 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:59:44,340 - Removed 0 duplicate rows.
+2025-01-08 00:59:44,343 - Data saved successfully: data/temp.csv
+2025-01-08 00:59:44,346 - 127.0.0.1 - - [08/Jan/2025 00:59:44] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:59:47,245 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:59:47,249 - Removed 0 duplicate rows.
+2025-01-08 00:59:47,252 - Data saved successfully: data/temp.csv
+2025-01-08 00:59:47,257 - 127.0.0.1 - - [08/Jan/2025 00:59:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:59:47,440 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:59:47,446 - Removed 0 duplicate rows.
+2025-01-08 00:59:47,449 - Data saved successfully: data/temp.csv
+2025-01-08 00:59:47,451 - 127.0.0.1 - - [08/Jan/2025 00:59:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 00:59:47,625 - Input file loaded successfully: data/temp.csv
+2025-01-08 00:59:47,631 - Removed 0 duplicate rows.
+2025-01-08 00:59:47,636 - Data saved successfully: data/temp.csv
+2025-01-08 00:59:47,639 - 127.0.0.1 - - [08/Jan/2025 00:59:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:00:06,686 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 01:00:06,918 -  * Restarting with stat
+2025-01-08 01:00:07,865 -  * Debugger is active!
+2025-01-08 01:00:07,896 -  * Debugger PIN: 103-707-624
+2025-01-08 01:00:09,049 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 01:00:09,241 -  * Restarting with stat
+2025-01-08 01:01:07,865 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 01:01:07,865 - [33mPress CTRL+C to quit[0m
+2025-01-08 01:01:07,865 -  * Restarting with stat
+2025-01-08 01:01:08,678 -  * Debugger is active!
+2025-01-08 01:01:08,708 -  * Debugger PIN: 103-707-624
+2025-01-08 01:01:12,585 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:12,593 - Removed 0 duplicate rows.
+2025-01-08 01:01:12,593 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:12,609 - 127.0.0.1 - - [08/Jan/2025 01:01:12] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:12,812 - 127.0.0.1 - - [08/Jan/2025 01:01:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 01:01:15,046 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:15,053 - Removed 0 duplicate rows.
+2025-01-08 01:01:15,056 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:15,059 - 127.0.0.1 - - [08/Jan/2025 01:01:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:15,504 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:15,512 - Removed 0 duplicate rows.
+2025-01-08 01:01:15,518 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:15,527 - 127.0.0.1 - - [08/Jan/2025 01:01:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:15,711 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:15,715 - Removed 0 duplicate rows.
+2025-01-08 01:01:15,719 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:15,722 - 127.0.0.1 - - [08/Jan/2025 01:01:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:15,893 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:15,899 - Removed 0 duplicate rows.
+2025-01-08 01:01:15,901 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:15,905 - 127.0.0.1 - - [08/Jan/2025 01:01:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:16,055 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:16,060 - Removed 0 duplicate rows.
+2025-01-08 01:01:16,066 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:16,072 - 127.0.0.1 - - [08/Jan/2025 01:01:16] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:16,481 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:16,487 - Removed 0 duplicate rows.
+2025-01-08 01:01:16,494 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:16,499 - 127.0.0.1 - - [08/Jan/2025 01:01:16] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:16,838 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:16,852 - Removed 0 duplicate rows.
+2025-01-08 01:01:16,856 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:16,859 - 127.0.0.1 - - [08/Jan/2025 01:01:16] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:17,053 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:17,056 - Removed 0 duplicate rows.
+2025-01-08 01:01:17,060 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:17,062 - 127.0.0.1 - - [08/Jan/2025 01:01:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:17,410 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:17,416 - Removed 0 duplicate rows.
+2025-01-08 01:01:17,421 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:17,423 - 127.0.0.1 - - [08/Jan/2025 01:01:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:17,756 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:17,763 - Removed 0 duplicate rows.
+2025-01-08 01:01:17,768 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:17,774 - 127.0.0.1 - - [08/Jan/2025 01:01:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:17,914 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:17,922 - Removed 0 duplicate rows.
+2025-01-08 01:01:17,922 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:17,922 - 127.0.0.1 - - [08/Jan/2025 01:01:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:18,095 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:18,101 - Removed 0 duplicate rows.
+2025-01-08 01:01:18,107 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:18,113 - 127.0.0.1 - - [08/Jan/2025 01:01:18] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:18,496 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:18,505 - Removed 0 duplicate rows.
+2025-01-08 01:01:18,509 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:18,518 - 127.0.0.1 - - [08/Jan/2025 01:01:18] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:43,862 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:01:44,178 -  * Restarting with stat
+2025-01-08 01:01:45,344 -  * Debugger is active!
+2025-01-08 01:01:45,359 -  * Debugger PIN: 103-707-624
+2025-01-08 01:01:48,734 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:01:48,741 - Data saved successfully: data/temp.csv
+2025-01-08 01:01:48,749 - 127.0.0.1 - - [08/Jan/2025 01:01:48] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:01:48,903 - 127.0.0.1 - - [08/Jan/2025 01:01:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 01:02:02,358 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:02,366 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:02,374 - 127.0.0.1 - - [08/Jan/2025 01:02:02] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:03,700 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:03,708 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:03,711 - 127.0.0.1 - - [08/Jan/2025 01:02:03] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:03,930 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:03,937 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:03,941 - 127.0.0.1 - - [08/Jan/2025 01:02:03] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:04,093 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:04,101 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:04,109 - 127.0.0.1 - - [08/Jan/2025 01:02:04] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:04,296 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:04,303 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:04,309 - 127.0.0.1 - - [08/Jan/2025 01:02:04] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:04,498 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:04,501 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:04,508 - 127.0.0.1 - - [08/Jan/2025 01:02:04] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:04,914 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:04,923 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:04,927 - 127.0.0.1 - - [08/Jan/2025 01:02:04] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:13,059 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:02:13,336 -  * Restarting with stat
+2025-01-08 01:02:32,980 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 01:02:32,980 - [33mPress CTRL+C to quit[0m
+2025-01-08 01:02:32,980 -  * Restarting with stat
+2025-01-08 01:02:33,788 -  * Debugger is active!
+2025-01-08 01:02:33,800 -  * Debugger PIN: 103-707-624
+2025-01-08 01:02:36,451 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:36,466 - Removed 0 duplicate rows.
+2025-01-08 01:02:36,466 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:36,491 - 127.0.0.1 - - [08/Jan/2025 01:02:36] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:36,791 - 127.0.0.1 - - [08/Jan/2025 01:02:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 01:02:42,304 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:42,314 - Removed 0 duplicate rows.
+2025-01-08 01:02:42,317 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:42,327 - 127.0.0.1 - - [08/Jan/2025 01:02:42] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:43,304 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:43,315 - Removed 0 duplicate rows.
+2025-01-08 01:02:43,318 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:43,325 - 127.0.0.1 - - [08/Jan/2025 01:02:43] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:43,852 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:43,857 - Removed 0 duplicate rows.
+2025-01-08 01:02:43,860 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:43,864 - 127.0.0.1 - - [08/Jan/2025 01:02:43] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:02:44,341 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:02:44,350 - Removed 0 duplicate rows.
+2025-01-08 01:02:44,357 - Data saved successfully: data/temp.csv
+2025-01-08 01:02:44,364 - 127.0.0.1 - - [08/Jan/2025 01:02:44] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:04:16,734 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 01:04:17,044 -  * Restarting with stat
+2025-01-08 01:04:18,267 -  * Debugger is active!
+2025-01-08 01:04:18,298 -  * Debugger PIN: 103-707-624
+2025-01-08 01:04:18,455 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 01:04:18,724 -  * Restarting with stat
+2025-01-08 01:04:20,322 -  * Debugger is active!
+2025-01-08 01:04:20,343 -  * Debugger PIN: 103-707-624
+2025-01-08 01:04:31,100 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 01:04:31,379 -  * Restarting with stat
+2025-01-08 01:04:32,687 -  * Debugger is active!
+2025-01-08 01:04:32,711 -  * Debugger PIN: 103-707-624
+2025-01-08 01:05:49,798 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 01:05:50,013 -  * Restarting with stat
+2025-01-08 01:05:51,207 -  * Debugger is active!
+2025-01-08 01:05:51,231 -  * Debugger PIN: 103-707-624
+2025-01-08 01:06:15,752 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:06:16,274 -  * Restarting with stat
+2025-01-08 01:06:17,444 -  * Debugger is active!
+2025-01-08 01:06:17,464 -  * Debugger PIN: 103-707-624
+2025-01-08 01:06:21,272 - 127.0.0.1 - - [08/Jan/2025 01:06:21] "GET / HTTP/1.1" 200 -
+2025-01-08 01:06:27,345 - Input file loaded successfully: data\input.csv
+2025-01-08 01:06:27,352 - Data saved successfully: data/temp.csv
+2025-01-08 01:06:27,365 - 127.0.0.1 - - [08/Jan/2025 01:06:27] "POST /upload HTTP/1.1" 200 -
+2025-01-08 01:06:31,887 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:06:31,896 - Removed 0 duplicate rows.
+2025-01-08 01:06:31,898 - Data saved successfully: data/temp.csv
+2025-01-08 01:06:31,901 - 127.0.0.1 - - [08/Jan/2025 01:06:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:06:33,893 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:06:33,899 - Removed 0 duplicate rows.
+2025-01-08 01:06:33,901 - Data saved successfully: data/temp.csv
+2025-01-08 01:06:33,907 - 127.0.0.1 - - [08/Jan/2025 01:06:33] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:06:34,704 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:06:34,709 - Removed 0 duplicate rows.
+2025-01-08 01:06:34,714 - Data saved successfully: data/temp.csv
+2025-01-08 01:06:34,717 - 127.0.0.1 - - [08/Jan/2025 01:06:34] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:07:49,941 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:07:50,412 -  * Restarting with stat
+2025-01-08 01:07:51,640 -  * Debugger is active!
+2025-01-08 01:07:51,666 -  * Debugger PIN: 103-707-624
+2025-01-08 01:07:54,802 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:07:54,815 - Removed 0 duplicate rows.
+2025-01-08 01:07:54,820 - Data saved successfully: data/temp.csv
+2025-01-08 01:07:54,838 - 127.0.0.1 - - [08/Jan/2025 01:07:54] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:07:56,907 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:07:56,915 - Removed 0 duplicate rows.
+2025-01-08 01:07:56,920 - Data saved successfully: data/temp.csv
+2025-01-08 01:07:56,927 - 127.0.0.1 - - [08/Jan/2025 01:07:56] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:07:57,375 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:07:57,382 - Removed 0 duplicate rows.
+2025-01-08 01:07:57,388 - Data saved successfully: data/temp.csv
+2025-01-08 01:07:57,393 - 127.0.0.1 - - [08/Jan/2025 01:07:57] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:07:57,619 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:07:57,626 - Removed 0 duplicate rows.
+2025-01-08 01:07:57,628 - Data saved successfully: data/temp.csv
+2025-01-08 01:07:57,630 - 127.0.0.1 - - [08/Jan/2025 01:07:57] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:08:00,287 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:08:00,295 - Removed 0 duplicate rows.
+2025-01-08 01:08:00,296 - Data saved successfully: data/temp.csv
+2025-01-08 01:08:00,300 - 127.0.0.1 - - [08/Jan/2025 01:08:00] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:08:00,452 - 127.0.0.1 - - [08/Jan/2025 01:08:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 01:08:17,909 - 127.0.0.1 - - [08/Jan/2025 01:08:17] "GET / HTTP/1.1" 200 -
+2025-01-08 01:08:23,793 - Input file loaded successfully: data\input.csv
+2025-01-08 01:08:23,800 - Data saved successfully: data/temp.csv
+2025-01-08 01:08:23,807 - 127.0.0.1 - - [08/Jan/2025 01:08:23] "POST /upload HTTP/1.1" 200 -
+2025-01-08 01:08:26,305 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:08:26,315 - Removed 0 duplicate rows.
+2025-01-08 01:08:26,318 - Data saved successfully: data/temp.csv
+2025-01-08 01:08:26,321 - 127.0.0.1 - - [08/Jan/2025 01:08:26] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:09:16,881 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:09:17,206 -  * Restarting with stat
+2025-01-08 01:09:18,387 -  * Debugger is active!
+2025-01-08 01:09:18,415 -  * Debugger PIN: 103-707-624
+2025-01-08 01:09:19,588 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:09:19,794 -  * Restarting with stat
+2025-01-08 01:09:22,575 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 01:09:22,575 - [33mPress CTRL+C to quit[0m
+2025-01-08 01:09:22,575 -  * Restarting with stat
+2025-01-08 01:09:23,893 -  * Debugger is active!
+2025-01-08 01:09:23,918 -  * Debugger PIN: 103-707-624
+2025-01-08 01:09:26,062 - 127.0.0.1 - - [08/Jan/2025 01:09:26] "GET / HTTP/1.1" 200 -
+2025-01-08 01:09:31,994 - Input file loaded successfully: data\input.csv
+2025-01-08 01:09:32,003 - Data saved successfully: data/temp.csv
+2025-01-08 01:09:32,026 - 127.0.0.1 - - [08/Jan/2025 01:09:32] "POST /upload HTTP/1.1" 200 -
+2025-01-08 01:09:37,485 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:09:37,495 - Removed 0 duplicate rows.
+2025-01-08 01:09:37,502 - Data saved successfully: data/temp.csv
+2025-01-08 01:09:37,504 - 127.0.0.1 - - [08/Jan/2025 01:09:37] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:09:43,437 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:09:43,443 - Removed 0 duplicate rows.
+2025-01-08 01:09:43,448 - Data saved successfully: data/temp.csv
+2025-01-08 01:09:43,454 - 127.0.0.1 - - [08/Jan/2025 01:09:43] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:07,672 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:11:08,088 -  * Restarting with stat
+2025-01-08 01:11:09,272 -  * Debugger is active!
+2025-01-08 01:11:09,288 -  * Debugger PIN: 103-707-624
+2025-01-08 01:11:13,757 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:11:14,028 -  * Restarting with stat
+2025-01-08 01:11:15,038 -  * Debugger is active!
+2025-01-08 01:11:15,053 -  * Debugger PIN: 103-707-624
+2025-01-08 01:11:17,207 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:17,210 - Removed 0 duplicate rows.
+2025-01-08 01:11:17,215 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:17,224 - 127.0.0.1 - - [08/Jan/2025 01:11:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:18,444 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:18,448 - Removed 0 duplicate rows.
+2025-01-08 01:11:18,453 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:18,458 - 127.0.0.1 - - [08/Jan/2025 01:11:18] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:22,431 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:22,434 - Removed 0 duplicate rows.
+2025-01-08 01:11:22,438 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:22,443 - 127.0.0.1 - - [08/Jan/2025 01:11:22] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:26,035 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:26,038 - Removed 0 duplicate rows.
+2025-01-08 01:11:26,043 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:26,047 - 127.0.0.1 - - [08/Jan/2025 01:11:26] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:34,052 - 127.0.0.1 - - [08/Jan/2025 01:11:34] "GET / HTTP/1.1" 200 -
+2025-01-08 01:11:40,794 - Input file loaded successfully: data\input.csv
+2025-01-08 01:11:40,795 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:40,805 - 127.0.0.1 - - [08/Jan/2025 01:11:40] "POST /upload HTTP/1.1" 200 -
+2025-01-08 01:11:43,389 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:43,393 - Removed 0 duplicate rows.
+2025-01-08 01:11:43,396 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:43,400 - 127.0.0.1 - - [08/Jan/2025 01:11:43] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:50,518 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:11:50,733 -  * Restarting with stat
+2025-01-08 01:11:51,738 -  * Debugger is active!
+2025-01-08 01:11:51,760 -  * Debugger PIN: 103-707-624
+2025-01-08 01:11:52,770 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:52,770 - Removed 0 duplicate rows.
+2025-01-08 01:11:52,779 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:52,789 - 127.0.0.1 - - [08/Jan/2025 01:11:52] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:56,131 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:56,134 - Removed 0 duplicate rows.
+2025-01-08 01:11:56,136 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:56,141 - 127.0.0.1 - - [08/Jan/2025 01:11:56] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:11:57,417 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:11:57,419 - Removed 0 duplicate rows.
+2025-01-08 01:11:57,422 - Data saved successfully: data/temp.csv
+2025-01-08 01:11:57,426 - 127.0.0.1 - - [08/Jan/2025 01:11:57] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:12:44,740 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:12:45,048 -  * Restarting with stat
+2025-01-08 01:13:06,902 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 01:13:06,902 - [33mPress CTRL+C to quit[0m
+2025-01-08 01:13:06,902 -  * Restarting with stat
+2025-01-08 01:13:07,858 -  * Debugger is active!
+2025-01-08 01:13:07,875 -  * Debugger PIN: 103-707-624
+2025-01-08 01:13:11,282 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:11,282 - Removed 0 duplicate rows.
+2025-01-08 01:13:11,298 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:11,298 - 127.0.0.1 - - [08/Jan/2025 01:13:11] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:13,422 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:13,427 - Removed 0 duplicate rows.
+2025-01-08 01:13:13,429 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:13,432 - 127.0.0.1 - - [08/Jan/2025 01:13:13] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:14,191 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:14,196 - Removed 0 duplicate rows.
+2025-01-08 01:13:14,202 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:14,206 - 127.0.0.1 - - [08/Jan/2025 01:13:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:14,379 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:14,383 - Removed 0 duplicate rows.
+2025-01-08 01:13:14,388 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:14,390 - 127.0.0.1 - - [08/Jan/2025 01:13:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:14,557 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:14,559 - Removed 0 duplicate rows.
+2025-01-08 01:13:14,565 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:14,570 - 127.0.0.1 - - [08/Jan/2025 01:13:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:14,751 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:14,753 - Removed 0 duplicate rows.
+2025-01-08 01:13:14,758 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:14,761 - 127.0.0.1 - - [08/Jan/2025 01:13:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:14,922 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:14,925 - Removed 0 duplicate rows.
+2025-01-08 01:13:14,931 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:14,933 - 127.0.0.1 - - [08/Jan/2025 01:13:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:15,301 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:13:15,301 - Removed 0 duplicate rows.
+2025-01-08 01:13:15,306 - Data saved successfully: data/temp.csv
+2025-01-08 01:13:15,308 - 127.0.0.1 - - [08/Jan/2025 01:13:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:13:38,039 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:13:38,413 -  * Restarting with stat
+2025-01-08 01:18:35,408 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 01:18:35,408 - [33mPress CTRL+C to quit[0m
+2025-01-08 01:18:35,412 -  * Restarting with stat
+2025-01-08 01:18:36,201 -  * Debugger is active!
+2025-01-08 01:18:36,243 -  * Debugger PIN: 103-707-624
+2025-01-08 01:18:38,482 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:18:38,514 - Original rows: 30
+2025-01-08 01:18:38,514 - Rows after cleaning: 30
+2025-01-08 01:18:38,514 - Removed 0 duplicate rows
+2025-01-08 01:18:38,514 - Data saved successfully: data/temp.csv
+2025-01-08 01:18:38,530 - 127.0.0.1 - - [08/Jan/2025 01:18:38] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:18:44,650 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:18:44,659 - Original rows: 30
+2025-01-08 01:18:44,659 - Rows after cleaning: 30
+2025-01-08 01:18:44,659 - Removed 0 duplicate rows
+2025-01-08 01:18:44,665 - Data saved successfully: data/temp.csv
+2025-01-08 01:18:44,668 - 127.0.0.1 - - [08/Jan/2025 01:18:44] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:18:46,990 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:18:46,999 - Original rows: 30
+2025-01-08 01:18:46,999 - Rows after cleaning: 30
+2025-01-08 01:18:47,000 - Removed 0 duplicate rows
+2025-01-08 01:18:47,003 - Data saved successfully: data/temp.csv
+2025-01-08 01:18:47,006 - 127.0.0.1 - - [08/Jan/2025 01:18:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:18:53,982 - 127.0.0.1 - - [08/Jan/2025 01:18:53] "GET / HTTP/1.1" 200 -
+2025-01-08 01:18:58,871 - Input file loaded successfully: data\input.csv
+2025-01-08 01:18:58,877 - Data saved successfully: data/temp.csv
+2025-01-08 01:18:58,881 - 127.0.0.1 - - [08/Jan/2025 01:18:58] "POST /upload HTTP/1.1" 200 -
+2025-01-08 01:19:00,910 - Input file loaded successfully: data/temp.csv
+2025-01-08 01:19:00,915 - Original rows: 30
+2025-01-08 01:19:00,916 - Rows after cleaning: 30
+2025-01-08 01:19:00,916 - Removed 0 duplicate rows
+2025-01-08 01:19:00,919 - Data saved successfully: data/temp.csv
+2025-01-08 01:19:00,922 - 127.0.0.1 - - [08/Jan/2025 01:19:00] "POST /process HTTP/1.1" 200 -
+2025-01-08 01:19:16,858 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 01:19:17,135 -  * Restarting with stat
+2025-01-08 01:36:28,473 -  * Debugger is active!
+2025-01-08 01:36:28,489 -  * Debugger PIN: 103-707-624
+2025-01-08 01:36:46,985 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 01:36:48,850 -  * Debugger is active!
+2025-01-08 01:36:48,870 -  * Debugger PIN: 103-707-624
+2025-01-08 01:37:05,134 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\main.py', reloading
+2025-01-08 01:37:06,845 -  * Debugger is active!
+2025-01-08 01:37:06,860 -  * Debugger PIN: 103-707-624
+2025-01-08 01:43:24,208 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:15:05,523 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 15:15:05,523 - [33mPress CTRL+C to quit[0m
+2025-01-08 15:15:05,536 -  * Restarting with stat
+2025-01-08 15:15:06,874 -  * Debugger is active!
+2025-01-08 15:15:06,891 -  * Debugger PIN: 103-707-624
+2025-01-08 15:15:24,531 - 127.0.0.1 - - [08/Jan/2025 15:15:24] "GET / HTTP/1.1" 200 -
+2025-01-08 15:15:24,780 - 127.0.0.1 - - [08/Jan/2025 15:15:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 15:15:30,912 - Input file loaded successfully: data\input.csv
+2025-01-08 15:15:30,998 - 127.0.0.1 - - [08/Jan/2025 15:15:30] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:15:35,650 - Error loading input file: No columns to parse from file
+2025-01-08 15:15:35,652 - 127.0.0.1 - - [08/Jan/2025 15:15:35] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:17:15,313 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:17:15,606 -  * Restarting with stat
+2025-01-08 15:17:17,416 -  * Debugger is active!
+2025-01-08 15:17:17,430 -  * Debugger PIN: 103-707-624
+2025-01-08 15:17:25,362 - 127.0.0.1 - - [08/Jan/2025 15:17:25] "GET / HTTP/1.1" 200 -
+2025-01-08 15:17:30,711 - Input file loaded successfully: data\input.csv
+2025-01-08 15:17:30,728 - 127.0.0.1 - - [08/Jan/2025 15:17:30] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:17:32,655 - Input file loaded successfully: data/input.csv
+2025-01-08 15:17:32,677 - Removed 17 duplicate rows.
+2025-01-08 15:17:32,719 - Modified file saved successfully: data/output.csv
+2025-01-08 15:17:32,723 - 127.0.0.1 - - [08/Jan/2025 15:17:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:19:25,931 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:19:26,216 -  * Restarting with stat
+2025-01-08 15:19:28,601 -  * Debugger is active!
+2025-01-08 15:19:28,625 -  * Debugger PIN: 103-707-624
+2025-01-08 15:19:35,699 - 127.0.0.1 - - [08/Jan/2025 15:19:35] "GET / HTTP/1.1" 200 -
+2025-01-08 15:19:42,736 - Input file loaded successfully: data\input.csv
+2025-01-08 15:19:42,768 - 127.0.0.1 - - [08/Jan/2025 15:19:42] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:19:45,864 - Input file loaded successfully: data/input.csv
+2025-01-08 15:19:45,883 - Removed 17 duplicate rows.
+2025-01-08 15:19:45,897 - Modified file saved successfully: ../data/output.csv
+2025-01-08 15:19:45,898 - 127.0.0.1 - - [08/Jan/2025 15:19:45] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:19:55,630 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:19:55,852 -  * Restarting with stat
+2025-01-08 15:19:57,052 -  * Debugger is active!
+2025-01-08 15:19:57,066 -  * Debugger PIN: 103-707-624
+2025-01-08 15:20:14,542 - Input file loaded successfully: data/input.csv
+2025-01-08 15:20:14,550 - Removed 17 duplicate rows.
+2025-01-08 15:20:14,557 - Modified file saved successfully: data/output.csv
+2025-01-08 15:20:14,577 - 127.0.0.1 - - [08/Jan/2025 15:20:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:24:02,495 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:24:03,210 -  * Restarting with stat
+2025-01-08 15:24:04,890 -  * Debugger is active!
+2025-01-08 15:24:04,909 -  * Debugger PIN: 103-707-624
+2025-01-08 15:24:15,158 - 127.0.0.1 - - [08/Jan/2025 15:24:15] "GET / HTTP/1.1" 200 -
+2025-01-08 15:24:20,571 - Input file loaded successfully: data\input.csv
+2025-01-08 15:24:20,598 - 127.0.0.1 - - [08/Jan/2025 15:24:20] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:24:22,024 - Input file loaded successfully: data/input.csv
+2025-01-08 15:24:22,032 - Removed 17 duplicate rows.
+2025-01-08 15:24:22,049 - 127.0.0.1 - - [08/Jan/2025 15:24:22] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:24:39,561 - Input file loaded successfully: data/input.csv
+2025-01-08 15:24:39,583 - 127.0.0.1 - - [08/Jan/2025 15:24:39] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:24:55,054 - Input file loaded successfully: data/input.csv
+2025-01-08 15:24:55,067 - 127.0.0.1 - - [08/Jan/2025 15:24:55] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:25:04,940 - Input file loaded successfully: data/input.csv
+2025-01-08 15:25:04,942 - Added a new row.
+2025-01-08 15:25:04,954 - 127.0.0.1 - - [08/Jan/2025 15:25:04] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:25:20,296 - 127.0.0.1 - - [08/Jan/2025 15:25:20] "[33mGET /download_log HTTP/1.1[0m" 404 -
+2025-01-08 15:25:25,813 - 127.0.0.1 - - [08/Jan/2025 15:25:25] "[33mGET /download_output HTTP/1.1[0m" 404 -
+2025-01-08 15:27:28,890 - Input file loaded successfully: data/input.csv
+2025-01-08 15:27:28,897 - Added a new row.
+2025-01-08 15:27:28,936 - 127.0.0.1 - - [08/Jan/2025 15:27:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:27:32,479 - Input file loaded successfully: data/input.csv
+2025-01-08 15:27:32,489 - Removed 17 duplicate rows.
+2025-01-08 15:27:32,502 - 127.0.0.1 - - [08/Jan/2025 15:27:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:27:45,149 - Input file loaded successfully: data/input.csv
+2025-01-08 15:27:45,157 - Deleted 1 rows where ID == 30.
+2025-01-08 15:27:45,166 - 127.0.0.1 - - [08/Jan/2025 15:27:45] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:31:40,414 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:31:40,992 -  * Restarting with stat
+2025-01-08 15:31:42,733 -  * Debugger is active!
+2025-01-08 15:31:42,748 -  * Debugger PIN: 103-707-624
+2025-01-08 15:32:21,200 - 127.0.0.1 - - [08/Jan/2025 15:32:21] "GET / HTTP/1.1" 200 -
+2025-01-08 15:32:26,971 - Input file loaded successfully: data\input.csv
+2025-01-08 15:32:27,000 - 127.0.0.1 - - [08/Jan/2025 15:32:27] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:32:28,865 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:32:28,878 - Removed 17 duplicate rows.
+2025-01-08 15:32:28,898 - 127.0.0.1 - - [08/Jan/2025 15:32:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:32:45,442 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:32:45,454 - Added a new row.
+2025-01-08 15:32:45,459 - 127.0.0.1 - - [08/Jan/2025 15:32:45] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:33:02,789 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:33:02,794 - Deleted 1 rows where ID == 1.
+2025-01-08 15:33:02,804 - 127.0.0.1 - - [08/Jan/2025 15:33:02] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:36:34,012 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:36:34,297 -  * Restarting with stat
+2025-01-08 15:36:35,818 -  * Debugger is active!
+2025-01-08 15:36:35,833 -  * Debugger PIN: 103-707-624
+2025-01-08 15:36:45,671 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:36:46,162 -  * Restarting with stat
+2025-01-08 15:36:47,313 -  * Debugger is active!
+2025-01-08 15:36:47,327 -  * Debugger PIN: 103-707-624
+2025-01-08 15:37:20,457 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:37:20,688 -  * Restarting with stat
+2025-01-08 15:37:22,051 -  * Debugger is active!
+2025-01-08 15:37:22,065 -  * Debugger PIN: 103-707-624
+2025-01-08 15:37:31,156 - 127.0.0.1 - - [08/Jan/2025 15:37:31] "GET / HTTP/1.1" 200 -
+2025-01-08 15:37:46,139 - Input file loaded successfully: data\input.csv
+2025-01-08 15:37:46,163 - 127.0.0.1 - - [08/Jan/2025 15:37:46] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:37:50,879 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:37:50,915 - Removed 0 duplicate rows.
+2025-01-08 15:37:51,005 - 127.0.0.1 - - [08/Jan/2025 15:37:51] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:40:04,299 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:40:04,721 -  * Restarting with stat
+2025-01-08 15:40:06,347 -  * Debugger is active!
+2025-01-08 15:40:06,347 -  * Debugger PIN: 103-707-624
+2025-01-08 15:40:09,120 - 127.0.0.1 - - [08/Jan/2025 15:40:09] "GET / HTTP/1.1" 200 -
+2025-01-08 15:40:14,637 - Input file loaded successfully: data\input.csv
+2025-01-08 15:40:14,661 - 127.0.0.1 - - [08/Jan/2025 15:40:14] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:40:17,171 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:40:17,184 - Removed 0 duplicate rows.
+2025-01-08 15:40:17,192 - 127.0.0.1 - - [08/Jan/2025 15:40:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:41:41,029 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:41:41,409 -  * Restarting with stat
+2025-01-08 15:41:42,454 -  * Debugger is active!
+2025-01-08 15:41:42,470 -  * Debugger PIN: 103-707-624
+2025-01-08 15:41:49,150 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:41:49,162 - Removed 0 duplicate rows.
+2025-01-08 15:41:49,204 - 127.0.0.1 - - [08/Jan/2025 15:41:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:41:53,137 - 127.0.0.1 - - [08/Jan/2025 15:41:53] "GET / HTTP/1.1" 200 -
+2025-01-08 15:41:57,878 - Input file loaded successfully: data\input.csv
+2025-01-08 15:41:57,884 - 127.0.0.1 - - [08/Jan/2025 15:41:57] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:42:00,069 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:00,078 - Removed 0 duplicate rows.
+2025-01-08 15:42:00,094 - 127.0.0.1 - - [08/Jan/2025 15:42:00] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:11,515 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:42:11,877 -  * Restarting with stat
+2025-01-08 15:42:13,063 -  * Debugger is active!
+2025-01-08 15:42:13,077 -  * Debugger PIN: 103-707-624
+2025-01-08 15:42:13,149 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:13,152 - Removed 0 duplicate rows.
+2025-01-08 15:42:13,167 - 127.0.0.1 - - [08/Jan/2025 15:42:13] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:19,780 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:19,784 - Removed 0 duplicate rows.
+2025-01-08 15:42:19,793 - 127.0.0.1 - - [08/Jan/2025 15:42:19] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:26,111 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:42:26,486 -  * Restarting with stat
+2025-01-08 15:42:27,479 -  * Debugger is active!
+2025-01-08 15:42:27,493 -  * Debugger PIN: 103-707-624
+2025-01-08 15:42:27,579 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:27,582 - Removed 0 duplicate rows.
+2025-01-08 15:42:27,596 - 127.0.0.1 - - [08/Jan/2025 15:42:27] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:34,663 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:34,667 - Removed 0 duplicate rows.
+2025-01-08 15:42:34,680 - 127.0.0.1 - - [08/Jan/2025 15:42:34] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:38,872 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:38,875 - Removed 0 duplicate rows.
+2025-01-08 15:42:38,889 - 127.0.0.1 - - [08/Jan/2025 15:42:38] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:42:50,138 - 127.0.0.1 - - [08/Jan/2025 15:42:50] "GET / HTTP/1.1" 200 -
+2025-01-08 15:42:57,254 - Input file loaded successfully: data\input.csv
+2025-01-08 15:42:57,260 - 127.0.0.1 - - [08/Jan/2025 15:42:57] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:42:59,949 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:42:59,955 - Removed 0 duplicate rows.
+2025-01-08 15:42:59,969 - 127.0.0.1 - - [08/Jan/2025 15:42:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:46:59,859 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:47:00,563 -  * Restarting with stat
+2025-01-08 15:47:02,640 -  * Debugger is active!
+2025-01-08 15:47:02,651 -  * Debugger PIN: 103-707-624
+2025-01-08 15:47:03,434 - 127.0.0.1 - - [08/Jan/2025 15:47:03] "GET / HTTP/1.1" 200 -
+2025-01-08 15:47:08,952 - Input file loaded successfully: data\input.csv
+2025-01-08 15:47:08,967 - 127.0.0.1 - - [08/Jan/2025 15:47:08] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:47:11,260 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:47:11,266 - Removed 0 duplicate rows.
+2025-01-08 15:47:11,315 - 127.0.0.1 - - [08/Jan/2025 15:47:11] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:47:15,709 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 15:47:16,113 -  * Restarting with stat
+2025-01-08 15:47:17,617 -  * Debugger is active!
+2025-01-08 15:47:17,642 -  * Debugger PIN: 103-707-624
+2025-01-08 15:47:29,736 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:47:29,743 - Removed 0 duplicate rows.
+2025-01-08 15:47:29,787 - 127.0.0.1 - - [08/Jan/2025 15:47:29] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:49:10,115 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:49:10,599 -  * Restarting with stat
+2025-01-08 15:49:12,401 -  * Debugger is active!
+2025-01-08 15:49:12,417 -  * Debugger PIN: 103-707-624
+2025-01-08 15:49:14,054 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:49:14,059 - Removed 0 duplicate rows.
+2025-01-08 15:49:14,150 - 127.0.0.1 - - [08/Jan/2025 15:49:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:49:30,627 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 15:49:30,627 - [33mPress CTRL+C to quit[0m
+2025-01-08 15:49:30,627 -  * Restarting with stat
+2025-01-08 15:49:31,516 -  * Debugger is active!
+2025-01-08 15:49:31,527 -  * Debugger PIN: 103-707-624
+2025-01-08 15:49:35,552 - 127.0.0.1 - - [08/Jan/2025 15:49:35] "GET / HTTP/1.1" 200 -
+2025-01-08 15:51:06,835 - Input file loaded successfully: data\input.csv
+2025-01-08 15:51:06,867 - 127.0.0.1 - - [08/Jan/2025 15:51:06] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:51:08,140 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:51:08,154 - Removed 0 duplicate rows.
+2025-01-08 15:51:08,221 - 127.0.0.1 - - [08/Jan/2025 15:51:08] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:53:32,070 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:53:32,556 -  * Restarting with stat
+2025-01-08 15:53:33,659 -  * Debugger is active!
+2025-01-08 15:53:33,672 -  * Debugger PIN: 103-707-624
+2025-01-08 15:53:42,898 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 15:53:42,898 - [33mPress CTRL+C to quit[0m
+2025-01-08 15:53:42,898 -  * Restarting with stat
+2025-01-08 15:53:44,135 -  * Debugger is active!
+2025-01-08 15:53:44,162 -  * Debugger PIN: 103-707-624
+2025-01-08 15:53:45,386 - 127.0.0.1 - - [08/Jan/2025 15:53:45] "GET / HTTP/1.1" 200 -
+2025-01-08 15:53:50,701 - Input file loaded successfully: data\input.csv
+2025-01-08 15:53:50,723 - 127.0.0.1 - - [08/Jan/2025 15:53:50] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:53:55,039 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:53:55,044 - Removed 0 duplicate rows.
+2025-01-08 15:53:55,060 - 127.0.0.1 - - [08/Jan/2025 15:53:55] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:54:33,086 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\process.py', reloading
+2025-01-08 15:54:33,336 -  * Restarting with stat
+2025-01-08 15:55:29,827 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 15:55:29,827 - [33mPress CTRL+C to quit[0m
+2025-01-08 15:55:29,829 -  * Restarting with stat
+2025-01-08 15:55:30,674 -  * Debugger is active!
+2025-01-08 15:55:30,689 -  * Debugger PIN: 103-707-624
+2025-01-08 15:55:37,986 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:55:37,992 - Removed 0 duplicate rows.
+2025-01-08 15:55:38,013 - 127.0.0.1 - - [08/Jan/2025 15:55:38] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:55:47,712 - 127.0.0.1 - - [08/Jan/2025 15:55:47] "GET / HTTP/1.1" 200 -
+2025-01-08 15:55:47,895 - 127.0.0.1 - - [08/Jan/2025 15:55:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 15:55:52,819 - Input file loaded successfully: data\input.csv
+2025-01-08 15:55:52,826 - 127.0.0.1 - - [08/Jan/2025 15:55:52] "POST /upload HTTP/1.1" 200 -
+2025-01-08 15:55:56,241 - Input file loaded successfully: data/temp.csv
+2025-01-08 15:55:56,247 - Removed 0 duplicate rows.
+2025-01-08 15:55:56,262 - 127.0.0.1 - - [08/Jan/2025 15:55:56] "POST /process HTTP/1.1" 200 -
+2025-01-08 15:57:36,307 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 15:57:37,087 -  * Restarting with stat
+2025-01-08 16:39:01,359 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 16:39:01,359 - [33mPress CTRL+C to quit[0m
+2025-01-08 16:39:01,365 -  * Restarting with stat
+2025-01-08 16:39:02,450 -  * Debugger is active!
+2025-01-08 16:39:02,494 -  * Debugger PIN: 103-707-624
+2025-01-08 16:39:05,791 - 127.0.0.1 - - [08/Jan/2025 16:39:05] "GET / HTTP/1.1" 200 -
+2025-01-08 16:39:12,055 - Input file loaded successfully: data\input.csv
+2025-01-08 16:39:12,078 - 127.0.0.1 - - [08/Jan/2025 16:39:12] "POST /upload HTTP/1.1" 200 -
+2025-01-08 16:39:15,105 - Input file loaded successfully: data/temp.csv
+2025-01-08 16:39:15,110 - Removed 0 duplicate rows.
+2025-01-08 16:39:15,159 - 127.0.0.1 - - [08/Jan/2025 16:39:15] "POST /process HTTP/1.1" 200 -
+2025-01-08 16:39:51,594 - Input file loaded successfully: data/temp.csv
+2025-01-08 16:39:51,597 - Added a new row.
+2025-01-08 16:39:51,608 - 127.0.0.1 - - [08/Jan/2025 16:39:51] "POST /process HTTP/1.1" 200 -
+2025-01-08 16:39:57,383 - Input file loaded successfully: data/temp.csv
+2025-01-08 16:39:57,392 - Removed 1 duplicate rows.
+2025-01-08 16:39:57,397 - 127.0.0.1 - - [08/Jan/2025 16:39:57] "POST /process HTTP/1.1" 200 -
+2025-01-08 16:40:07,179 - Input file loaded successfully: data/temp.csv
+2025-01-08 16:40:07,194 - 127.0.0.1 - - [08/Jan/2025 16:40:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 16:40:21,102 - Input file loaded successfully: data/temp.csv
+2025-01-08 16:40:21,112 - 127.0.0.1 - - [08/Jan/2025 16:40:21] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:36:39,299 - 127.0.0.1 - - [08/Jan/2025 17:36:39] "GET / HTTP/1.1" 200 -
+2025-01-08 17:36:46,140 - Input file loaded successfully: data\input.csv
+2025-01-08 17:36:46,167 - 127.0.0.1 - - [08/Jan/2025 17:36:46] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:36:49,799 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:36:49,823 - Removed 0 duplicate rows.
+2025-01-08 17:36:49,836 - 127.0.0.1 - - [08/Jan/2025 17:36:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:37:06,021 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:37:06,025 - Removed 0 duplicate rows.
+2025-01-08 17:37:06,041 - 127.0.0.1 - - [08/Jan/2025 17:37:06] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:37:10,671 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:37:10,676 - Removed 0 duplicate rows.
+2025-01-08 17:37:10,685 - 127.0.0.1 - - [08/Jan/2025 17:37:10] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:37:40,481 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 17:37:40,482 - [33mPress CTRL+C to quit[0m
+2025-01-08 17:37:40,493 -  * Restarting with stat
+2025-01-08 17:37:41,974 -  * Debugger is active!
+2025-01-08 17:37:41,994 -  * Debugger PIN: 103-707-624
+2025-01-08 17:37:42,156 - 127.0.0.1 - - [08/Jan/2025 17:37:42] "GET / HTTP/1.1" 200 -
+2025-01-08 17:37:49,811 - Input file loaded successfully: data\input.csv
+2025-01-08 17:37:49,829 - 127.0.0.1 - - [08/Jan/2025 17:37:49] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:37:52,436 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:37:52,443 - Removed 0 duplicate rows.
+2025-01-08 17:37:52,457 - 127.0.0.1 - - [08/Jan/2025 17:37:52] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:38:06,951 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 17:38:07,218 -  * Restarting with stat
+2025-01-08 17:38:08,391 -  * Debugger is active!
+2025-01-08 17:38:08,398 -  * Debugger PIN: 103-707-624
+2025-01-08 17:38:16,553 - 127.0.0.1 - - [08/Jan/2025 17:38:16] "GET / HTTP/1.1" 200 -
+2025-01-08 17:38:22,830 - Input file loaded successfully: data\input.csv
+2025-01-08 17:38:22,839 - 127.0.0.1 - - [08/Jan/2025 17:38:22] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:38:26,128 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:38:26,135 - Removed 0 duplicate rows.
+2025-01-08 17:38:26,143 - Modified file saved successfully: data/temp.csv
+2025-01-08 17:38:26,145 - 127.0.0.1 - - [08/Jan/2025 17:38:26] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:38:37,271 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 17:38:37,499 -  * Restarting with stat
+2025-01-08 17:38:38,467 -  * Debugger is active!
+2025-01-08 17:38:38,482 -  * Debugger PIN: 103-707-624
+2025-01-08 17:38:42,392 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:38:42,397 - Removed 0 duplicate rows.
+2025-01-08 17:38:42,430 - 127.0.0.1 - - [08/Jan/2025 17:38:42] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:38:49,227 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:38:49,885 -  * Restarting with stat
+2025-01-08 17:39:07,742 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 17:39:07,742 - [33mPress CTRL+C to quit[0m
+2025-01-08 17:39:07,743 -  * Restarting with stat
+2025-01-08 17:39:08,783 -  * Debugger is active!
+2025-01-08 17:39:08,799 -  * Debugger PIN: 103-707-624
+2025-01-08 17:39:10,869 - 127.0.0.1 - - [08/Jan/2025 17:39:10] "GET / HTTP/1.1" 200 -
+2025-01-08 17:39:16,283 - Input file loaded successfully: data\input.csv
+2025-01-08 17:39:16,311 - 127.0.0.1 - - [08/Jan/2025 17:39:16] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:39:28,377 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:39:28,382 - Removed 0 duplicate rows.
+2025-01-08 17:39:28,392 - 127.0.0.1 - - [08/Jan/2025 17:39:28] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:40:00,982 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 17:40:01,311 -  * Restarting with stat
+2025-01-08 17:40:02,629 -  * Debugger is active!
+2025-01-08 17:40:02,648 -  * Debugger PIN: 103-707-624
+2025-01-08 17:40:07,683 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:40:07,683 - Removed 0 duplicate rows.
+2025-01-08 17:40:07,720 - 127.0.0.1 - - [08/Jan/2025 17:40:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:07,089 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:07,096 - Added a new row.
+2025-01-08 17:41:07,110 - 127.0.0.1 - - [08/Jan/2025 17:41:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:22,135 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:22,146 - Deleted 1 rows where ID == 6.
+2025-01-08 17:41:22,151 - 127.0.0.1 - - [08/Jan/2025 17:41:22] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:30,899 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:30,921 - 127.0.0.1 - - [08/Jan/2025 17:41:30] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:35,139 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:35,142 - Removed 0 duplicate rows.
+2025-01-08 17:41:35,151 - 127.0.0.1 - - [08/Jan/2025 17:41:35] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:40,760 - 127.0.0.1 - - [08/Jan/2025 17:41:40] "GET / HTTP/1.1" 200 -
+2025-01-08 17:41:41,869 - 127.0.0.1 - - [08/Jan/2025 17:41:41] "GET / HTTP/1.1" 200 -
+2025-01-08 17:41:42,506 - 127.0.0.1 - - [08/Jan/2025 17:41:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 17:41:47,588 - Input file loaded successfully: data\input.csv
+2025-01-08 17:41:47,595 - 127.0.0.1 - - [08/Jan/2025 17:41:47] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:41:50,562 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:50,567 - Removed 0 duplicate rows.
+2025-01-08 17:41:50,583 - 127.0.0.1 - - [08/Jan/2025 17:41:50] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:41:53,162 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:41:53,165 - Removed 0 duplicate rows.
+2025-01-08 17:41:53,172 - 127.0.0.1 - - [08/Jan/2025 17:41:53] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:42:44,786 - 127.0.0.1 - - [08/Jan/2025 17:42:44] "GET / HTTP/1.1" 200 -
+2025-01-08 17:42:45,604 - 127.0.0.1 - - [08/Jan/2025 17:42:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 17:43:00,857 - Input file loaded successfully: data\input.csv
+2025-01-08 17:43:00,875 - 127.0.0.1 - - [08/Jan/2025 17:43:00] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:43:03,822 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:43:03,841 - Removed 0 duplicate rows.
+2025-01-08 17:43:03,867 - 127.0.0.1 - - [08/Jan/2025 17:43:03] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:43:30,103 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:43:30,512 -  * Restarting with stat
+2025-01-08 17:43:37,549 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 17:43:37,549 - [33mPress CTRL+C to quit[0m
+2025-01-08 17:43:37,549 -  * Restarting with stat
+2025-01-08 17:43:38,500 -  * Debugger is active!
+2025-01-08 17:43:38,535 -  * Debugger PIN: 103-707-624
+2025-01-08 17:43:43,034 - 127.0.0.1 - - [08/Jan/2025 17:43:43] "GET / HTTP/1.1" 200 -
+2025-01-08 17:43:48,789 - Input file loaded successfully: data\input.csv
+2025-01-08 17:43:48,817 - 127.0.0.1 - - [08/Jan/2025 17:43:48] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:43:50,699 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:43:50,712 - Removed 0 duplicate rows.
+2025-01-08 17:43:50,740 - 127.0.0.1 - - [08/Jan/2025 17:43:50] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:43:56,819 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:43:57,087 -  * Restarting with stat
+2025-01-08 17:43:58,104 -  * Debugger is active!
+2025-01-08 17:43:58,120 -  * Debugger PIN: 103-707-624
+2025-01-08 17:44:08,842 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:44:09,079 -  * Restarting with stat
+2025-01-08 17:44:10,313 -  * Debugger is active!
+2025-01-08 17:44:10,326 -  * Debugger PIN: 103-707-624
+2025-01-08 17:45:49,431 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 17:45:49,431 - [33mPress CTRL+C to quit[0m
+2025-01-08 17:45:49,431 -  * Restarting with stat
+2025-01-08 17:45:50,422 -  * Debugger is active!
+2025-01-08 17:45:50,435 -  * Debugger PIN: 103-707-624
+2025-01-08 17:45:54,973 - 127.0.0.1 - - [08/Jan/2025 17:45:54] "GET / HTTP/1.1" 200 -
+2025-01-08 17:46:01,259 - Input file loaded successfully: data\input.csv
+2025-01-08 17:46:01,276 - 127.0.0.1 - - [08/Jan/2025 17:46:01] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:46:02,626 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:46:02,629 - Removed 0 duplicate rows.
+2025-01-08 17:46:02,641 - 127.0.0.1 - - [08/Jan/2025 17:46:02] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:46:14,099 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:46:14,101 - Removed 0 duplicate rows.
+2025-01-08 17:46:14,109 - 127.0.0.1 - - [08/Jan/2025 17:46:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:47:26,537 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:47:26,546 - Removed 0 duplicate rows.
+2025-01-08 17:47:26,555 - 127.0.0.1 - - [08/Jan/2025 17:47:26] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:49:14,328 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:49:14,335 - Removed 0 duplicate rows.
+2025-01-08 17:49:14,344 - 127.0.0.1 - - [08/Jan/2025 17:49:14] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:49:21,476 - 127.0.0.1 - - [08/Jan/2025 17:49:21] "GET / HTTP/1.1" 200 -
+2025-01-08 17:49:28,198 - Input file loaded successfully: data\input.csv
+2025-01-08 17:49:28,203 - 127.0.0.1 - - [08/Jan/2025 17:49:28] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:49:32,850 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:49:32,854 - Removed 0 duplicate rows.
+2025-01-08 17:49:32,862 - 127.0.0.1 - - [08/Jan/2025 17:49:32] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:49:53,901 - 127.0.0.1 - - [08/Jan/2025 17:49:53] "GET / HTTP/1.1" 200 -
+2025-01-08 17:49:59,358 - Input file loaded successfully: data\input.csv
+2025-01-08 17:49:59,364 - 127.0.0.1 - - [08/Jan/2025 17:49:59] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:50:00,725 - Input file loaded successfully: data/input.csv
+2025-01-08 17:50:00,738 - Removed 17 duplicate rows.
+2025-01-08 17:50:00,753 - 127.0.0.1 - - [08/Jan/2025 17:50:00] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:50:13,928 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:50:13,956 - 127.0.0.1 - - [08/Jan/2025 17:50:13] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:50:34,268 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:50:34,277 - Added a new row.
+2025-01-08 17:50:34,285 - 127.0.0.1 - - [08/Jan/2025 17:50:34] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:50:49,087 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:50:49,095 - Deleted 1 rows where ID == 10.
+2025-01-08 17:50:49,104 - 127.0.0.1 - - [08/Jan/2025 17:50:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:07,615 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:51:07,618 - Deleted 2 rows where Age == 30.
+2025-01-08 17:51:07,627 - 127.0.0.1 - - [08/Jan/2025 17:51:07] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:19,783 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:51:19,796 - 127.0.0.1 - - [08/Jan/2025 17:51:19] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:31,421 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:51:31,423 - Added a new row.
+2025-01-08 17:51:31,431 - 127.0.0.1 - - [08/Jan/2025 17:51:31] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:46,801 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:51:46,802 - Added a new row.
+2025-01-08 17:51:46,812 - 127.0.0.1 - - [08/Jan/2025 17:51:46] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:49,401 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:51:49,404 - Removed 1 duplicate rows.
+2025-01-08 17:51:49,413 - 127.0.0.1 - - [08/Jan/2025 17:51:49] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:51:54,400 - 127.0.0.1 - - [08/Jan/2025 17:51:54] "[33mGET /proces HTTP/1.1[0m" 404 -
+2025-01-08 17:51:57,198 - 127.0.0.1 - - [08/Jan/2025 17:51:57] "GET / HTTP/1.1" 200 -
+2025-01-08 17:52:02,898 - Input file loaded successfully: data\input.csv
+2025-01-08 17:52:02,903 - 127.0.0.1 - - [08/Jan/2025 17:52:02] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:52:06,192 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:52:06,195 - Removed 0 duplicate rows.
+2025-01-08 17:52:06,205 - 127.0.0.1 - - [08/Jan/2025 17:52:06] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:56:37,812 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:56:38,229 -  * Restarting with stat
+2025-01-08 17:56:39,803 -  * Debugger is active!
+2025-01-08 17:56:39,818 -  * Debugger PIN: 103-707-624
+2025-01-08 17:56:43,132 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:56:43,482 -  * Restarting with stat
+2025-01-08 17:56:44,652 -  * Debugger is active!
+2025-01-08 17:56:44,665 -  * Debugger PIN: 103-707-624
+2025-01-08 17:56:46,440 - 127.0.0.1 - - [08/Jan/2025 17:56:46] "GET / HTTP/1.1" 200 -
+2025-01-08 17:56:51,884 - Input file loaded successfully: data\input.csv
+2025-01-08 17:56:51,906 - 127.0.0.1 - - [08/Jan/2025 17:56:51] "POST /upload HTTP/1.1" 200 -
+2025-01-08 17:56:54,258 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:56:54,265 - Removed 0 duplicate rows.
+2025-01-08 17:56:54,277 - 127.0.0.1 - - [08/Jan/2025 17:56:54] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:56:59,116 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:56:59,119 - Removed 0 duplicate rows.
+2025-01-08 17:56:59,127 - 127.0.0.1 - - [08/Jan/2025 17:56:59] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:57:03,040 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:57:03,239 -  * Restarting with stat
+2025-01-08 17:57:04,343 -  * Debugger is active!
+2025-01-08 17:57:04,361 -  * Debugger PIN: 103-707-624
+2025-01-08 17:57:18,355 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:57:18,628 -  * Restarting with stat
+2025-01-08 17:57:19,713 -  * Debugger is active!
+2025-01-08 17:57:19,728 -  * Debugger PIN: 103-707-624
+2025-01-08 17:57:27,510 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:57:27,511 - Removed 0 duplicate rows.
+2025-01-08 17:57:27,519 - 127.0.0.1 - - [08/Jan/2025 17:57:27] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:57:35,691 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:57:36,118 -  * Restarting with stat
+2025-01-08 17:57:37,256 -  * Debugger is active!
+2025-01-08 17:57:37,269 -  * Debugger PIN: 103-707-624
+2025-01-08 17:57:37,339 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:57:37,341 - Removed 0 duplicate rows.
+2025-01-08 17:57:37,348 - 127.0.0.1 - - [08/Jan/2025 17:57:37] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:57:41,656 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:57:41,660 - Removed 0 duplicate rows.
+2025-01-08 17:57:41,664 - 127.0.0.1 - - [08/Jan/2025 17:57:41] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:57:49,159 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:57:49,414 -  * Restarting with stat
+2025-01-08 17:57:50,809 -  * Debugger is active!
+2025-01-08 17:57:50,825 -  * Debugger PIN: 103-707-624
+2025-01-08 17:57:56,248 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 17:57:56,432 -  * Restarting with stat
+2025-01-08 17:58:06,570 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 17:58:06,570 - [33mPress CTRL+C to quit[0m
+2025-01-08 17:58:06,571 -  * Restarting with stat
+2025-01-08 17:58:07,471 -  * Debugger is active!
+2025-01-08 17:58:07,487 -  * Debugger PIN: 103-707-624
+2025-01-08 17:58:11,071 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:58:11,087 - Removed 0 duplicate rows.
+2025-01-08 17:58:11,112 - 127.0.0.1 - - [08/Jan/2025 17:58:11] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:58:13,593 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:58:13,598 - Removed 0 duplicate rows.
+2025-01-08 17:58:13,612 - 127.0.0.1 - - [08/Jan/2025 17:58:13] "POST /process HTTP/1.1" 200 -
+2025-01-08 17:58:23,977 - Input file loaded successfully: data/temp.csv
+2025-01-08 17:58:23,983 - Removed 0 duplicate rows.
+2025-01-08 17:58:23,993 - 127.0.0.1 - - [08/Jan/2025 17:58:23] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:00:10,601 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:00:11,053 -  * Restarting with stat
+2025-01-08 18:00:12,424 -  * Debugger is active!
+2025-01-08 18:00:12,437 -  * Debugger PIN: 103-707-624
+2025-01-08 18:00:14,101 - 127.0.0.1 - - [08/Jan/2025 18:00:14] "GET / HTTP/1.1" 200 -
+2025-01-08 18:00:19,729 - Input file loaded successfully: data\input.csv
+2025-01-08 18:00:19,743 - 127.0.0.1 - - [08/Jan/2025 18:00:19] "POST /upload HTTP/1.1" 200 -
+2025-01-08 18:00:23,324 - Input file loaded successfully: data/input.csv
+2025-01-08 18:00:23,331 - Removed 17 duplicate rows.
+2025-01-08 18:00:23,341 - 127.0.0.1 - - [08/Jan/2025 18:00:23] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:00:37,539 - 127.0.0.1 - - [08/Jan/2025 18:00:37] "[33mGET /download_output HTTP/1.1[0m" 404 -
+2025-01-08 18:02:15,241 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:02:15,623 -  * Restarting with stat
+2025-01-08 18:02:17,337 -  * Debugger is active!
+2025-01-08 18:02:17,361 -  * Debugger PIN: 103-707-624
+2025-01-08 18:02:18,993 - 127.0.0.1 - - [08/Jan/2025 18:02:18] "[33mGET /download_output HTTP/1.1[0m" 404 -
+2025-01-08 18:02:22,187 - 127.0.0.1 - - [08/Jan/2025 18:02:22] "[33mGET /download_output HTTP/1.1[0m" 404 -
+2025-01-08 18:02:30,241 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:02:30,500 -  * Restarting with stat
+2025-01-08 18:02:31,587 -  * Debugger is active!
+2025-01-08 18:02:31,600 -  * Debugger PIN: 103-707-624
+2025-01-08 18:02:34,455 - 127.0.0.1 - - [08/Jan/2025 18:02:34] "GET /download_output HTTP/1.1" 200 -
+2025-01-08 18:02:43,759 - 127.0.0.1 - - [08/Jan/2025 18:02:43] "[33mGET /download_log HTTP/1.1[0m" 404 -
+2025-01-08 18:03:26,967 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:03:27,239 -  * Restarting with stat
+2025-01-08 18:03:29,055 -  * Debugger is active!
+2025-01-08 18:03:29,070 -  * Debugger PIN: 103-707-624
+2025-01-08 18:03:30,381 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:03:30,716 -  * Restarting with stat
+2025-01-08 18:03:31,928 -  * Debugger is active!
+2025-01-08 18:03:31,950 -  * Debugger PIN: 103-707-624
+2025-01-08 18:03:46,077 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:03:46,335 -  * Restarting with stat
+2025-01-08 18:03:47,427 -  * Debugger is active!
+2025-01-08 18:03:47,447 -  * Debugger PIN: 103-707-624
+2025-01-08 18:03:54,095 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:03:54,296 -  * Restarting with stat
+2025-01-08 18:03:55,460 -  * Debugger is active!
+2025-01-08 18:03:55,483 -  * Debugger PIN: 103-707-624
+2025-01-08 18:04:00,918 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:04:01,112 -  * Restarting with stat
+2025-01-08 18:04:02,092 -  * Debugger is active!
+2025-01-08 18:04:02,099 -  * Debugger PIN: 103-707-624
+2025-01-08 18:04:05,384 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:04:05,626 -  * Restarting with stat
+2025-01-08 18:04:07,351 -  * Debugger is active!
+2025-01-08 18:04:07,368 -  * Debugger PIN: 103-707-624
+2025-01-08 18:04:10,359 - 127.0.0.1 - - [08/Jan/2025 18:04:10] "GET /download_log HTTP/1.1" 200 -
+2025-01-08 18:04:16,728 - 127.0.0.1 - - [08/Jan/2025 18:04:16] "GET /download_log HTTP/1.1" 200 -
+2025-01-08 18:04:30,959 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:04:31,220 -  * Restarting with stat
+2025-01-08 18:04:32,932 -  * Debugger is active!
+2025-01-08 18:04:32,954 -  * Debugger PIN: 103-707-624
+2025-01-08 18:04:33,352 - 127.0.0.1 - - [08/Jan/2025 18:04:33] "GET /download_log HTTP/1.1" 200 -
+2025-01-08 18:04:56,408 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:04:56,615 -  * Restarting with stat
+2025-01-08 18:04:57,612 -  * Debugger is active!
+2025-01-08 18:04:57,628 -  * Debugger PIN: 103-707-624
+2025-01-08 18:05:08,353 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\app.py', reloading
+2025-01-08 18:05:08,552 -  * Restarting with stat
+2025-01-08 18:05:09,600 -  * Debugger is active!
+2025-01-08 18:05:09,615 -  * Debugger PIN: 103-707-624
+2025-01-08 18:05:12,150 - 127.0.0.1 - - [08/Jan/2025 18:05:12] "[35m[1mGET /download_log HTTP/1.1[0m" 500 -
+2025-01-08 18:05:12,332 - 127.0.0.1 - - [08/Jan/2025 18:05:12] "GET /download_log?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-08 18:05:12,346 - 127.0.0.1 - - [08/Jan/2025 18:05:12] "GET /download_log?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-08 18:05:12,424 - 127.0.0.1 - - [08/Jan/2025 18:05:12] "GET /download_log?__debugger__=yes&cmd=resource&f=console.png&s=7ertfYuaYSXbvY12yWSN HTTP/1.1" 200 -
+2025-01-08 18:05:12,445 - 127.0.0.1 - - [08/Jan/2025 18:05:12] "GET /download_log?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-08 18:05:17,804 - Input file loaded successfully: data/temp.csv
+2025-01-08 18:05:17,808 - Removed 0 duplicate rows.
+2025-01-08 18:05:17,826 - 127.0.0.1 - - [08/Jan/2025 18:05:17] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:05:18,100 - 127.0.0.1 - - [08/Jan/2025 18:05:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 18:05:19,328 - 127.0.0.1 - - [08/Jan/2025 18:05:19] "[35m[1mGET /download_log HTTP/1.1[0m" 500 -
+2025-01-08 18:05:19,385 - 127.0.0.1 - - [08/Jan/2025 18:05:19] "[36mGET /download_log?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-08 18:05:19,386 - 127.0.0.1 - - [08/Jan/2025 18:05:19] "[36mGET /download_log?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-08 18:05:19,410 - 127.0.0.1 - - [08/Jan/2025 18:05:19] "[36mGET /download_log?__debugger__=yes&cmd=resource&f=console.png&s=7ertfYuaYSXbvY12yWSN HTTP/1.1[0m" 304 -
+2025-01-08 18:09:22,083 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 18:09:22,424 -  * Restarting with stat
+2025-01-08 18:09:24,521 -  * Debugger is active!
+2025-01-08 18:09:24,536 -  * Debugger PIN: 103-707-624
+2025-01-08 18:09:55,392 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\utils.py', reloading
+2025-01-08 18:09:55,795 -  * Restarting with stat
+2025-01-08 18:10:03,350 -  * Restarting with stat
+2025-01-08 18:10:30,640 -  * Restarting with stat
+2025-01-08 18:10:42,101 -  * Restarting with stat
+2025-01-08 18:10:46,971 -  * Restarting with stat
+2025-01-08 18:11:08,047 -  * Restarting with stat
+2025-01-08 18:12:26,320 -  * Restarting with stat
+2025-01-08 18:12:48,392 -  * Restarting with stat
+2025-01-08 18:12:54,474 -  * Restarting with stat
+2025-01-08 18:13:02,393 -  * Restarting with stat
+2025-01-08 18:13:40,293 -  * Restarting with stat
+2025-01-08 18:13:51,655 -  * Restarting with stat
+2025-01-08 18:14:04,857 -  * Restarting with stat
+2025-01-08 18:14:37,301 -  * Restarting with stat
+2025-01-08 18:14:39,769 -  * Restarting with stat
+2025-01-08 18:15:06,878 -  * Restarting with stat
+2025-01-08 18:15:55,193 -  * Restarting with stat

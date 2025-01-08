@@ -1,0 +1,19 @@
+Log initialized for session.
+2025-01-08 18:16:39,777 - Input file loaded successfully: data\input.csv
+2025-01-08 18:16:39,796 - 127.0.0.1 - - [08/Jan/2025 18:16:39] "POST /upload HTTP/1.1" 200 -
+2025-01-08 18:16:41,246 - Input file loaded successfully: data/input.csv
+2025-01-08 18:16:41,267 - Removed 17 duplicate rows.
+2025-01-08 18:16:41,306 - 127.0.0.1 - - [08/Jan/2025 18:16:41] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:16:46,997 - Input file loaded successfully: data/temp.csv
+2025-01-08 18:16:47,010 - 127.0.0.1 - - [08/Jan/2025 18:16:47] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:16:54,558 - Input file loaded successfully: data/temp.csv
+2025-01-08 18:16:54,558 - Added a new row.
+2025-01-08 18:16:54,571 - 127.0.0.1 - - [08/Jan/2025 18:16:54] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:17:05,138 - Input file loaded successfully: data/temp.csv
+2025-01-08 18:17:05,142 - Deleted 1 rows where ID == 20.
+2025-01-08 18:17:05,151 - 127.0.0.1 - - [08/Jan/2025 18:17:05] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:17:12,081 - Input file loaded successfully: data/temp.csv
+2025-01-08 18:17:12,093 - 127.0.0.1 - - [08/Jan/2025 18:17:12] "POST /process HTTP/1.1" 200 -
+2025-01-08 18:17:21,662 - 127.0.0.1 - - [08/Jan/2025 18:17:21] "GET /download_output HTTP/1.1" 200 -
+2025-01-08 18:17:25,252 - 127.0.0.1 - - [08/Jan/2025 18:17:25] "GET /download_log HTTP/1.1" 200 -
+2025-01-08 18:18:19,743 -  * Detected change in 'D:\\Vomychat Assignment\\ai_excel_modifier\\app\\main.py', reloading

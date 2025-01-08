@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Modify Data</h1>
+    
+    {% if error_message %}
+    <div class="alert alert-danger mt-4" role="alert">
+        <strong>Error:</strong> {{ error_message }}
+    </div>
+    {% endif %}
+
+    <form action="/process" method="POST" id="modifyForm" onsubmit="return validateForm()" class="mt-4">
+        <div class="mb-3">
+            <label for="operation" class="form-label">Choose an operation:</label>
+            <select name="operation" id="operation" class="form-select" required>
+                <option value="remove_duplicates">Remove Duplicates</option>
+                <option value="apply_filter">Apply Filter</option>
+                <option value="modify_rows">Modify Rows</option>
+            </select>
+        </div>
+
+        <!-- Filter Section -->
+        <div id="filter-section" style="display:none;" class="mb-3">
+            <label for="column" class="form-label">Column:</label>
+            <input type="text" id="column" name="column" class="form-control">
+            
+            <label for="condition" class="form-label">Condition:</label>
+            <input type="text" id="condition" name="condition" class="form-control">
+        </div>
+
+        <!-- Modify Rows Section -->
+        <div id="modify-rows-section" style="display:none;" class="mb-3">
+            <label for="modify_operation" class="form-label">Choose an operation:</label>
+            <select name="modify_operation" id="modify_operation" class="form-select" required>
+                <option value="add">Add Row</option>
+                <option value="delete">Delete Row</option>
+            </select>
+
+            <!-- Add Row Form -->
+            <div id="add-row-form" style="display:block;" class="mt-3">
+                <label for="id" class="form-label">ID:</label>
+                <input type="text" name="id" id="id" class="form-control">
+
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" name="name" id="name" class="form-control">
+
+                <label for="age" class="form-label">Age:</label>
+                <input type="text" name="age" id="age" class="form-control">
+            </div>
+
+            <!-- Delete Row Form -->
+            <div id="delete-row-form" style="display:none;" class="mt-3">
+                <label for="delete_column" class="form-label">Column Name:</label>
+                <input type="text" name="delete_column" id="delete_column" class="form-control">
+
+                <label for="delete_value" class="form-label">Value to match for deletion:</label>
+                <input type="text" name="delete_value" id="delete_value" class="form-control">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Process File</button>
+    </form>
+
+    <h2 class="mt-5">Processed Data</h2>
+    
+    <div class="mb-3">
+        <a href="/download_output" class="btn btn-primary">Download Output CSV</a>
+        <a href="/download_log" class="btn btn-secondary">Download Modification Log</a>
+    </div>
+    
+    <h2 class="mt-5">Filter Logs</h2>
+    <form action="/filter_logs" method="POST" class="mb-4">
+        <div class="mb-3">
+            <label for="filter_criteria" class="form-label">Filter Criteria:</label>
+            <input type="text" name="filter_criteria" id="filter_criteria" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-info">Filter Logs</button>
+    </form>
+    {% if data %}
+    <div class="table-responsive mt-3">
+        {{ data | safe }}  <!-- Render the DataFrame as a table -->
+    </div>
+    {% endif %}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Toggle filter options based on the selected operation
+    document.getElementById('operation').addEventListener('change', function() {
+        const operation = this.value;
+        const filterSection = document.getElementById('filter-section');
+        const modifyRowsSection = document.getElementById('modify-rows-section');
+        
+        console.log('Operation selected:', operation); // Debugging
+
+        if (operation === 'apply_filter') {
+            filterSection.style.display = 'block';
+            document.getElementById('column').required = true;
+            document.getElementById('condition').required = true;
+            modifyRowsSection.style.display = 'none'; // Hide modify rows
+        } else if (operation === 'modify_rows') {
+            modifyRowsSection.style.display = 'block';
+            filterSection.style.display = 'none'; // Hide filter
+            // Ensure Add Row form is displayed by default
+            document.getElementById('add-row-form').style.display = 'block';
+            document.getElementById('delete-row-form').style.display = 'none';
+        } else {
+            filterSection.style.display = 'none';
+            modifyRowsSection.style.display = 'none';
+        }
+    });
+
+    // Toggle Add or Delete Row form based on modify operation
+    document.getElementById('modify_operation').addEventListener('change', function() {
+        const modifyOperation = this.value;
+        const addRowForm = document.getElementById('add-row-form');
+        const deleteRowForm = document.getElementById('delete-row-form');
+        const idInput = document.getElementById('id');
+        const nameInput = document.getElementById('name');
+        const ageInput = document.getElementById('age');
+        const deleteColumnInput = document.getElementById('delete_column');
+        const deleteValueInput = document.getElementById('delete_value');
+        
+        console.log('Modify operation selected:', modifyOperation); // Debugging
+
+        if (modifyOperation === 'add') {
+            // Show the add row form
+            addRowForm.style.display = 'block';
+            deleteRowForm.style.display = 'none';
+
+            // Make the inputs required for adding a row
+            idInput.required = true;
+            nameInput.required = true;
+            ageInput.required = true;
+
+            // Ensure the delete inputs are not required
+            deleteColumnInput.required = false;
+            deleteValueInput.required = false;
+        } else if (modifyOperation === 'delete') {
+            // Show the delete row form
+            deleteRowForm.style.display = 'block';
+            addRowForm.style.display = 'none';
+
+            // Make the delete inputs required
+            deleteColumnInput.required = true;
+            deleteValueInput.required = true;
+
+            // Hide the add row inputs and remove their requirement
+            idInput.required = false;
+            nameInput.required = false;
+            ageInput.required = false;
+        }
+    });
+
+    // Ensure form is valid before submission
+    function validateForm() {
+        const operation = document.getElementById('operation').value;
+
+        if (operation === 'apply_filter') {
+            const column = document.getElementById('column').value.trim();
+            const condition = document.getElementById('condition').value.trim();
+
+            // Regular expression for basic validation of condition format
+            const conditionFormat = /^\s*(==|!=|>|<|>=|<=)\s*(.*)$/;
+
+            if (column === '' || condition === '') {
+                alert("Please enter both column and condition for the filter.");
+                return false;
+            }
+
+            // Validate the condition format
+            if (!condition.match(conditionFormat)) {
+                alert("Condition must be in the format: Operator Value (e.g., > 5 or == 'John')");
+                return false;
+            }
+        }
+
+        // Ensure data is provided for modifying rows
+        if (operation === 'modify_rows') {
+            const modifyOperation = document.getElementById('modify_operation').value;
+
+            if (modifyOperation === 'add') {
+                const id = document.querySelector('[name="id"]').value.trim();
+                const name = document.querySelector('[name="name"]').value.trim();
+                const age = document.querySelector('[name="age"]').value.trim();
+                if (id === '' || name === '' || age === '') {
+                    alert("Please enter all fields for adding a row.");
+                    return false;
+                }
+            } else if (modifyOperation === 'delete') {
+                const deleteColumn = document.querySelector('[name="delete_column"]').value.trim();
+                const deleteValue = document.querySelector('[name="delete_value"]').value.trim();
+                if (deleteColumn === '' || deleteValue === '') {
+                    alert("Please enter both column name and value for deleting a row.");
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+</script>
+</body>
+</html>
